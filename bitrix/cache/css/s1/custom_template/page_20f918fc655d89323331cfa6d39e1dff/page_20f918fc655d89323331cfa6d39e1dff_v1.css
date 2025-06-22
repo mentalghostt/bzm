@@ -1,0 +1,51 @@
+
+
+/* Start:/local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1750109903645*/
+.breadcrumb-item .bx-link {
+    text-decoration: none;
+    color: #000000; /* Пример */
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-divider {
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+.breadcrumb-item a {
+    color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/news/custom_news/bitrix/news.list/.default/style.css?17496920231*/
+
+
+/* End */
+/* /local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1750109903645 */
+/* /local/templates/custom_template/components/bitrix/news/custom_news/bitrix/news.list/.default/style.css?17496920231 */

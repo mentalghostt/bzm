@@ -1,0 +1,48 @@
+
+
+/* Start:/local/templates/custom_template/template_styles.css?1749847203432*/
+:root {
+  --brand-dark: rgba(225, 77, 49, 1);
+  --brand-light: rgba(249, 126, 56, 1);
+  --gray-100: rgba(239, 240, 241, 1);
+  --gray-200: rgba(224, 228, 232, 1);
+  --gray-300: rgba(209, 217, 225, 1);
+  --gray-400: rgba(192, 200, 209, 1);
+  --gray-500: rgba(144, 154, 163, 1);
+  --gray-600: rgba(110, 123, 136, 1);
+  --gray-700: rgba(59, 67, 81, 1);
+  --gray-800: rgba(51, 54, 61, 1);
+  --gray-900: rgba(21, 22, 24, 1);
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/styles.css?1749847415120*/
+header {
+    color: var(--gray-100);
+}
+main{
+    color: var(--gray-500);
+}
+footer{
+    color: var(--gray-900);
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?17496874984*/
+
+
+
+
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/menu/templates/.default/style.min.css?1749152536490*/
+ul.left-menu{list-style:none;margin:0;padding:0;margin-bottom:8px;position:relative}ul.left-menu li{padding:10px 16px;background:#f5f5f5 url(/bitrix/components/bitrix/menu/templates/.default/images/left_menu_bg.gif) top repeat-x}ul.left-menu li a{font-size:100%;color:#bc262c;font-weight:bold;text-decoration:none}ul.left-menu li a:visited{color:#bc262c}ul.left-menu li a:hover{color:#bc262c}ul.left-menu li a.selected:link,ul.left-menu li a.selected:visited,ul.left-menu li a.selected:active,ul.left-menu li a.selected:hover{color:#fc8d3d}
+/* End */
+/* /local/templates/custom_template/template_styles.css?1749847203432 */
+/* /local/templates/custom_template/styles.css?1749847415120 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?17496874984 */
+/* /bitrix/components/bitrix/menu/templates/.default/style.min.css?1749152536490 */

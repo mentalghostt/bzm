@@ -1,0 +1,110 @@
+
+
+/* Start:/local/templates/custom_template/template_styles.css?1750110921432*/
+:root {
+  --brand-dark: rgba(225, 77, 49, 1);
+  --brand-light: rgba(249, 126, 56, 1);
+  --gray-100: rgba(239, 240, 241, 1);
+  --gray-200: rgba(224, 228, 232, 1);
+  --gray-300: rgba(209, 217, 225, 1);
+  --gray-400: rgba(192, 200, 209, 1);
+  --gray-500: rgba(144, 154, 163, 1);
+  --gray-600: rgba(110, 123, 136, 1);
+  --gray-700: rgba(59, 67, 81, 1);
+  --gray-800: rgba(51, 54, 61, 1);
+  --gray-900: rgba(21, 22, 24, 1);
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/styles.css?1750111565832*/
+.main {
+    background-color: var(--gray-100);
+}
+
+.undermain {
+    font-family: Arial, sans-serif;
+    background-image: url('/local/templates/custom_template/assets/img/main-background.jpg');
+}
+
+.footer {
+    font-family: Arial, sans-serif;
+    background-image: url('/local/templates/custom_template/assets/img/footer-background.svg');
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (max-width: 767.98px) {
+    .desktop-schedule {
+        display: none !important;
+    }
+
+    .mobile-schedule {
+        display: block !important;
+    }
+
+    .footer h5 {
+        font-size: 1.1rem;
+    }
+
+    .footer li {
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-schedule {
+        display: none !important;
+    }
+
+    .desktop-schedule {
+        display: block !important;
+    }
+
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1750111402597*/
+.header-menu {
+    height: 100%; /* Занимает всю доступную высоту */
+    margin-left: 1.5rem; /* Убирает стандартный отступ слева у списка */
+}
+
+.header-menu li {
+    margin-right: 1rem; /* Отступ между элементами меню */
+}
+
+.header-menu .bx-link {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: #000000; /* Пример */
+}
+
+.header-menu .bx-link:hover {
+    font-weight: bold;
+    color: rgba(249, 126, 56, 1);
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1750022486103*/
+.menu-footer .bx-link {
+          text-decoration: none;
+          color: #ffffff; /* Пример */
+}
+/* End */
+/* /local/templates/custom_template/template_styles.css?1750110921432 */
+/* /local/templates/custom_template/styles.css?1750111565832 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1750111402597 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1750022486103 */

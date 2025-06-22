@@ -1,0 +1,17 @@
+2025-06-21 21:23:16 -  - exec CUpdateClient::GetUpdatesList
+2025-06-21 21:23:16 -  - exec CUpdateClient::CollectRequestData
+2025-06-21 21:23:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bzm.local&SERVER_NAME=&CHHB=bzm.local&CSAB=127.127.126.48&SUID=hbmv3fsiesoi296rwxp0pfyc7t4z3cvp&CANGZIP=Y&CLIENT_PHPVER=8.4.1&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.300&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_clouds=25.0.0&bitm_fileman=24.500.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_landing=24.800.0&bitm_location=25.0.0&bitm_messageservice=24.900.0&bitm_perfmon=24.200.0&bitm_rest=25.100.200&bitm_search=25.0.0&bitm_security=24.0.100&bitm_seo=24.600.100&bitm_socialservices=24.100.100&bitm_translate=24.100.0&bitm_ui=25.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-06-21 21:23:16 -  - exec CUpdateClient::GetHTTPPage
+2025-06-21 21:23:17 -  - TIME GetUpdatesList(request) 0.282 sec
+2025-06-21 21:23:17 -  - exec CUpdateClient::ParseServerData
+2025-06-21 21:23:17 -  - exec CUpdateClient::executeCounters
+2025-06-21 21:23:17 -  - exec CUpdateClient::CollectRequestData
+2025-06-21 21:23:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bzm.local&SERVER_NAME=&CHHB=bzm.local&CSAB=127.127.126.48&SUID=hbmv3fsiesoi296rwxp0pfyc7t4z3cvp&CANGZIP=Y&CLIENT_PHPVER=8.4.1&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.300&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_clouds=25.0.0&bitm_fileman=24.500.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_landing=24.800.0&bitm_location=25.0.0&bitm_messageservice=24.900.0&bitm_perfmon=24.200.0&bitm_rest=25.100.200&bitm_search=25.0.0&bitm_security=24.0.100&bitm_seo=24.600.100&bitm_socialservices=24.100.100&bitm_translate=24.100.0&bitm_ui=25.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y&query_type=counter&cntr_result[460]=1c_bitrix%2Cwww.1c-bitrix.ru
+2025-06-21 21:23:17 -  - exec CUpdateClient::GetHTTPPage
+2025-06-21 21:23:17 -  - TIME executeCounters 0.365 sec
+2025-06-22 14:00:54 -  - exec CUpdateClient::GetUpdatesList
+2025-06-22 14:00:54 -  - exec CUpdateClient::CollectRequestData
+2025-06-22 14:00:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bzm.local&SERVER_NAME=bzm.local&CHHB=bzm.local&CSAB=127.127.126.48&SUID=hbmv3fsiesoi296rwxp0pfyc7t4z3cvp&CANGZIP=Y&CLIENT_PHPVER=8.4.1&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.300&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_clouds=25.0.0&bitm_fileman=24.500.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_landing=24.800.0&bitm_location=25.0.0&bitm_messageservice=24.900.0&bitm_perfmon=24.200.0&bitm_rest=25.100.200&bitm_search=25.0.0&bitm_security=24.0.100&bitm_seo=24.600.100&bitm_socialservices=24.100.100&bitm_translate=24.100.0&bitm_ui=25.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-06-22 14:00:54 -  - exec CUpdateClient::GetHTTPPage
+2025-06-22 14:00:55 -  - TIME GetUpdatesList(request) 0.382 sec
+2025-06-22 14:00:55 -  - exec CUpdateClient::ParseServerData

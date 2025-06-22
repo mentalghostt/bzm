@@ -1,0 +1,10 @@
+.menu-mobile .bx-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu-mobile .bx-link:hover {
+    color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
+    transition: all 0.3s ease;
+}

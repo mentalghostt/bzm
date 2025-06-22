@@ -1,0 +1,9 @@
+.menu-footer .bx-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-footer .bx-link:hover {
+    color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
+    transition: all 0.3s ease;
+}

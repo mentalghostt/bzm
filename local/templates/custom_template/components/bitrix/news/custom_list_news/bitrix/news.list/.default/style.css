@@ -1,0 +1,16 @@
+.news-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}  
+
+.bx-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.bx-link:hover {
+    color: rgba(249, 126, 56, 1);
+}

@@ -1,0 +1,78 @@
+
+
+/* Start:/local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1750269108549*/
+.breadcrumb-item .bx-link {
+    text-decoration: none;
+    color: #000;
+    /* Пример */
+}
+
+.breadcrumb {
+    min-height: 40px;
+    padding-bottom: 0.5rem;
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-divider {
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+.breadcrumb-item a {
+    color: rgba(249, 126, 56, 1);
+}
+
+.breadcrumb-item a:hover {
+    color: rgba(249, 126, 56, 1);
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/news/custom_news/bitrix/news.list/.default/style.css?1750268623497*/
+.news-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    overflow: hidden;
+    height: 200px;
+}
+
+.card-img-top img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-title a:hover {
+    color: rgba(249, 126, 56, 1);
+}
+/* End */
+/* /local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1750269108549 */
+/* /local/templates/custom_template/components/bitrix/news/custom_news/bitrix/news.list/.default/style.css?1750268623497 */

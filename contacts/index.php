@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Контакты");
 ?>
 
-<div class="row py-5">
+<div class="row pt-md-4 pb-md-5 py-3">
 	<div class="col-lg-4 col-sm-12 mb-4 mb-md-0">
 		<section class="mb-3">
 			<a href="tel:+7(495)790 44 41" class="orange-text">

@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Документы");
 ?>
 
-<div class="row py-5">
+<div class="row py-md-4 py-3">
 	<p class="fw-bold mb-4">Важные документы</p>
 	<div class="col-md-4 col-sm-12 mb-2">
 		<div class="card rounded-4 border-0">

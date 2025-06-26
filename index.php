@@ -1,18 +1,19 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle("Главная");
-?><div class="row pt-5 d-flex align-items-center">
-	<h1 class="col-md-10 col-xs-12">Полезные статьи</h1>
- <a class="col-md-2 col-xs-12 orange-text justify-content-end-md" href="expluatation/">
-	<p class="d-md-flex justify-content-end">
-		 Смотреть все →
-	</p>
- </a>
+?>
+<div class="row pt-5 d-flex align-items-center">
+	<h1 class="col-md-10 col-xs-12 fw-bold">Полезные статьи</h1>
+	<a class="col-md-2 col-xs-12 orange-text justify-content-end-md" href="expluatation/">
+		<p class="d-md-flex fw-bold mt-3 mt-md-3 justify-content-end">
+			Смотреть все →
+		</p>
+	</a>
 </div>
- <?$APPLICATION->IncludeComponent(
+<? $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"interesting_news",
-	Array(
+	array(
 		"ACTIVE_DATE_FORMAT" => "j M Y",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"AJAX_MODE" => "N",
@@ -33,7 +34,7 @@ $APPLICATION->SetTitle("Главная");
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(0=>"",1=>"",),
+		"FIELD_CODE" => array(0 => "", 1 => "", ),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => "1",
@@ -52,7 +53,7 @@ $APPLICATION->SetTitle("Главная");
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
+		"PROPERTY_CODE" => array(0 => "", 1 => "", ),
 		"SET_BROWSER_TITLE" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "N",
@@ -66,14 +67,7 @@ $APPLICATION->SetTitle("Главная");
 		"SORT_ORDER2" => "ASC",
 		"STRICT_SECTION_CHECK" => "N"
 	)
-);?> <br>
-<?$APPLICATION->IncludeComponent("bitrix:main.feedback", "", array(
-	
-	),
-	false,
-	array(
-	"ACTIVE_COMPONENT" => "N"
-	)
-);?><?
+); ?> <br>
+<?
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
 ?>

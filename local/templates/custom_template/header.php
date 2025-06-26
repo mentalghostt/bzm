@@ -24,17 +24,17 @@ use Bitrix\Main\Page\Asset;
 		<? $APPLICATION->ShowPanel(); ?>
 	</div>
 	<header class="header">
-		<div class="container d-none d-md-block">
+		<div class="d-none d-md-block">
 			<nav>
 				<ul class="d-flex justify-content-center align-items-center pt-3">
 					<li class="list-inline-item"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-mail-icon.svg"><a
-							class="bx-link" href="mailto:mrvd@bzmr.ru">mrvd@bzmr.ru</a></li>
+							class="color-grey-700" href="mailto:mrvd@bzmr.ru"> mrvd@bzmr.ru</a></li>
 					<li class="list-inline-item"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-phone-icon.svg"><a
-							class="bx-link" href="tel:+7(495)790 44 41">+7(495)790 44 41</a></li>
+							class="color-grey-700" href="tel:+7(495)790 44 41"> +7 (495) 790 44 41</a></li>
 				</ul>
 			</nav>
 			<hr>
-			<div class="d-flex justify-content-left pb-4">
+			<div class="container d-flex justify-content-left pb-4">
 				<a href="/" class="d-inline-block">
 					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-max.svg" class="img-fluid"
 						style="width: 200px; height: auto;">
@@ -65,7 +65,7 @@ use Bitrix\Main\Page\Asset;
 
 		<div class="container d-block d-md-none">
 			<div class="d-flex justify-content-between align-items-center py-3">
-				<button class="btn p-0 border-0 bg-transparent" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+				<button class="btn p-1 border-0 bg-transparent" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
 					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/menu-icon.svg" alt="Меню">
 				</button>
 
@@ -73,20 +73,20 @@ use Bitrix\Main\Page\Asset;
 					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-min.svg" alt="Логотип">
 				</a>
 
-				<a href="tel:+74957904411" class="p-0">
+				<a href="tel:+74957904411" class="pe-1">
 					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/phone-icon.svg" alt="Телефон">
 				</a>
 			</div>
 		</div>
 
 		<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
-			<div class="offcanvas-header my-1">
-				<h4 class="offcanvas-title" id="mobileMenuLabel">Меню</h5>
-					<button type="button" class="btn p-0 border-0 bg-transparent" data-bs-dismiss="offcanvas"
+			<div class="offcanvas-header mb-1 ms-1">
+				<h4 class="offcanvas-title fw-bold" id="mobileMenuLabel">Меню</h5>
+					<button type="button" class="btn pe-1 border-0 bg-transparent" data-bs-dismiss="offcanvas"
 						aria-label="Закрыть"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/close-icon.svg"></button>
 			</div>
 			<hr class="mt-0">
-			<nav class="ms-3 mb-2">
+			<nav class="mb-2 ms-4">
 				<? $APPLICATION->IncludeComponent(
 					"bitrix:menu",
 					"custom_menu_mobile",
@@ -107,16 +107,16 @@ use Bitrix\Main\Page\Asset;
 				); ?>
 			</nav>
 			<div class="offcanvas-body mobile-menu-under">
-				<div class="mt-auto">
+				<div class="mt-auto ms-2">
 					<ul class="list-unstyled">
 						<li class="mb-3">
 							<a class="bx-link" href="tel:+74951501450" class="text-decoration-none">
-								<h5 class="mb-0">+7 (495) 150 14 50</h5>
+								<h5 class="mb-0 fw-bold">+7 (495) 150 14 50</h5>
 							</a>
 						</li>
 						<li class="mb-3">
 							<a href="mailto:info@bzm32.ru" class="text-decoration-none">
-								<h5 class="mb-0">info@bzm32.ru</h5>
+								<h5 class="mb-0 fw-bold">info@bzm32.ru</h5>
 							</a>
 						</li>
 						<li>
@@ -129,7 +129,7 @@ use Bitrix\Main\Page\Asset;
 	</header>
 
 	<main class="main">
-		<div class="container">
+		<div class="container px-4">
 			<? $currentPage = $APPLICATION->GetCurPage(); ?>
 			<? if ($currentPage !== SITE_DIR && $currentPage !== SITE_DIR . 'index.php' && $currentPage !== SITE_DIR . '404.php'): ?>
 				<? $APPLICATION->IncludeComponent(
@@ -142,5 +142,5 @@ use Bitrix\Main\Page\Asset;
 					),
 					false
 				); ?>
-				<h1 class="col-md-6"><? $APPLICATION->ShowTitle(); ?></h1>
+				<h1 class="pt-2 fw-bold"><? $APPLICATION->ShowTitle(); ?></h1>
 			<? endif; ?>

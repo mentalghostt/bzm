@@ -1,0 +1,15 @@
+
+
+/* Start:/local/templates/custom_template/components/bitrix/news.list/interesting_news/style.css?1750942570178*/
+.news-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* End */
+/* /local/templates/custom_template/components/bitrix/news.list/interesting_news/style.css?1750942570178 */

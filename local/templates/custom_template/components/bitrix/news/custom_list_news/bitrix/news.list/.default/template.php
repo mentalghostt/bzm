@@ -13,12 +13,12 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<div class="news-list">
+<div class="news-list py-md-4 pt-md-5 pt-3 pb-4">
     <? if ($arParams["DISPLAY_TOP_PAGER"]): ?>
         <?= $arResult["NAV_STRING"] ?><br />
     <? endif; ?>
 
-    <div class="row g-4 py-5">
+    <div class="row g-4">
         <? foreach ($arResult["ITEMS"] as $arItem): ?>
             <?
             $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -32,12 +32,12 @@ $this->setFrameMode(true);
                             <div class="col-md-4">
                                 <? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])): ?>
                                     <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>">
-                                        <img class="img-fluid h-100 w-100 object-fit-cover rounded-start-5"
+                                        <img class="img-fluid h-100 w-100 object-fit-cover rounded-4"
                                             src="<?= $arItem["PREVIEW_PICTURE"]["SRC"] ?>"
                                             alt="<?= $arItem["PREVIEW_PICTURE"]["ALT"] ?>">
                                     </a>
                                 <? else: ?>
-                                    <img class="img-fluid h-100 w-100 object-fit-cover rounded-start-5"
+                                    <img class="img-fluid h-100 w-100 object-fit-cover rounded-start-4"
                                         src="<?= $arItem["PREVIEW_PICTURE"]["SRC"] ?>"
                                         alt="<?= $arItem["PREVIEW_PICTURE"]["ALT"] ?>">
                                 <? endif; ?>
@@ -54,7 +54,7 @@ $this->setFrameMode(true);
                                     <h5 class="mb-3 w-100 text-truncate">
                                         <? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])): ?>
                                             <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>"
-                                                class="text-decoration-none bx-link"><?= $arItem["NAME"] ?></a>
+                                                class="text-decoration-none fw-bold bx-link"><?= $arItem["NAME"] ?></a>
                                         <? else: ?>
                                             <?= $arItem["NAME"] ?>
                                         <? endif; ?>
@@ -70,7 +70,7 @@ $this->setFrameMode(true);
 
                                 <div class="mt-auto w-100">
                                     <? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])): ?>
-                                        <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>" class="bx-link fw-bold">
+                                        <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>" class="bx-link">
                                             Подробнее →
                                         </a>
                                     <? endif; ?>

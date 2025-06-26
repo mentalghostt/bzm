@@ -1,25 +1,13 @@
 .header-menu {
     height: 100%;
-    /* Занимает всю доступную высоту */
-    margin-left: 1.5rem;
-    /* Убирает стандартный отступ слева у списка */
+    margin-left: 3rem;
 }
 
 .header-menu li {
     margin-right: 1.5rem;
-    /* Отступ между элементами меню */
-}
-
-.header-menu .bx-link {
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    text-decoration: none;
-    color: #000;
 }
 
 .header-menu .bx-link:hover {
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
     transition: all 0.3s ease;
 }

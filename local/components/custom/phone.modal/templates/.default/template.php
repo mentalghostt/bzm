@@ -1,7 +1,7 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
     die(); ?>
 
-<button type="button" class="btn ps-0 pb-0" data-bs-toggle="modal"
+<button type="button" class="btn ps-0" data-bs-toggle="modal"
     data-bs-target="#phoneModal"><?= $arParams['BUTTON_TEXT'] ?> <img
         src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-phone-icon.svg"></button>
 

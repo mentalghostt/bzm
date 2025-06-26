@@ -10,10 +10,9 @@
 				continue;
 			?>
 			<? if ($arItem["SELECTED"]): ?>
-				<li class="mb-2 bx-link"><a class="bx-link" href="<?= $arItem["LINK"] ?>" class="selected"><?= $arItem["TEXT"] ?></a>
-				</li>
+				<li class="mt-4"><a href="<?= $arItem["LINK"] ?>" class="selected"><h6><?= $arItem["TEXT"] ?></h6></a></li>
 			<? else: ?>
-				<li class="mb-2 bx-link"><a class="bx-link" href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
+				<li class="mt-4"><a href="<?= $arItem["LINK"] ?>"><h6><?= $arItem["TEXT"] ?></h6></a></li>
 			<? endif ?>
 
 		<? endforeach ?>

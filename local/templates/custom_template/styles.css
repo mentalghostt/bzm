@@ -1,33 +1,55 @@
+@font-face {
+  font-family: "Golos"; 
+  src: url("assets/fonts/Golos-UI_VF.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+p, h1, h2, h3, h4, h5, h6, a, div, span, button{
+    font-family: "Golos";
+}
+
+.footer .color-grey-500 {
+    color: #909AA3;
+}
+
+.header .color-grey-700 {
+    color: #3B4351;
+}
+
 .header a {
     text-decoration: none;
     color: #000000;
 }
 
 .mobile-menu-under {
-    background-color: rgba(239, 240, 241, 1);
+    background-color: #E0E4E8;
 }
 
 .mobile-menu-under a {
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
     text-decoration: none;
 }
 
 .main {
-    background-color: rgba(239, 240, 241, 1);
+    background-color: #E0E4E8;
 }
 
 .main button {
     text-decoration: none;
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
 }
 
 .main .orange-text {
     text-decoration: none;
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
 }
 
 .footer {
     background-image: url('assets/img/footer-background.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 .footer a {
@@ -36,11 +58,11 @@
 }
 
 .footer a:hover {
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
     transition: all 0.3s ease;
 }
 
 .footer button {
     text-decoration: none;
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
 }

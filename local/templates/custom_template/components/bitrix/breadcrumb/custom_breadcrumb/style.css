@@ -1,7 +1,6 @@
 .breadcrumb-item .bx-link {
     text-decoration: none;
-    color: #000;
-    /* Пример */
+    color: #6c757d;
 }
 
 .breadcrumb {
@@ -21,15 +20,15 @@
     justify-content: center;
 }
 
-.breadcrumb-item.active {
-    color: #6c757d;
+.breadcrumb-item-active {
+    color: #E14D31;
 }
 
 .breadcrumb-item a {
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
 }
 
 .breadcrumb-item a:hover {
-    color: rgba(249, 126, 56, 1);
+    color: #E14D31;
     transition: all 0.3s ease;
 }

@@ -1,25 +1,35 @@
 @font-face {
-  font-family: "Golos"; 
-  src: url("assets/fonts/Golos-UI_VF.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
+    font-family: "Golos";
+    src: url("assets/fonts/Golos-UI_VF.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-p, h1, h2, h3, h4, h5, h6, a, div, span, button{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+span,
+button {
     font-family: "Golos";
 }
 
-.footer .color-grey-500 {
+body .color-grey-500 {
     color: #909AA3;
 }
 
-.header .color-grey-700 {
+body .color-grey-700 {
     color: #3B4351;
 }
 
 .header a {
     text-decoration: none;
-    color: #000000;
+    color: black;
 }
 
 .mobile-menu-under {
@@ -54,7 +64,7 @@ p, h1, h2, h3, h4, h5, h6, a, div, span, button{
 
 .footer a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .footer a:hover {
@@ -65,4 +75,212 @@ p, h1, h2, h3, h4, h5, h6, a, div, span, button{
 .footer button {
     text-decoration: none;
     color: #E14D31;
+}
+
+/*Пиксель-перфект*/
+.header-mobile {
+    height: 60px;
+}
+
+.header-menu-button {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.header-icon-mobile {
+    width: 6.5rem;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.header-phone-ref {
+    margin-top: 2px;
+    margin-right: 13px;
+}
+
+.mobile-menu-name {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.mobile-menu-button {
+    padding-right: 6px;
+    padding-bottom: 3px;
+}
+
+.header-desk-upper {
+    height: 45px;
+    padding-top: 9px;
+    padding-right: 24px;
+}
+
+.header-desk-upper-mail {
+    font-size: 13px;
+}
+
+.header-desk-upper-phone {
+    font-size: 13px;
+}
+
+.header-desk-main {
+    height: 100px;
+}
+
+.header-desk-main-logo {
+    height: 77px;
+    padding-top: 23px;
+    padding-left: 13px;
+}
+
+.header-desk-main-menu {
+    padding-top: 51px;
+    padding-left: 45px;
+}
+
+.text-button-white {
+    letter-spacing: 0px;
+    color: white;
+}
+
+.btn-dark {
+    background-color: #E14D31 !important;
+    border: none !important;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .breadcrumb-area {
+        padding-top: 22px;
+        padding-left: 9px;
+    }
+
+    .main-heading-area {
+        padding-top: 1px;
+        padding-left: 9px;
+        padding-bottom: 10px;
+    }
+
+    .footer-logo {
+        padding-top: 28px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 110px;
+    }
+
+    .footer-body {
+        padding-top: 35px;
+        padding-left: 10px;
+    }
+
+    .footer-menu-area {
+        padding-top: 20px;
+        padding-bottom: 440px;
+    }
+
+    .footer-lower {
+        height: 240px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+    }
+
+    .footer-lower-link {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .footer-mail-section {
+        padding-top: 12px;
+    }
+
+    .footer-office-section {
+        padding-top: 4px;
+    }
+
+    .footer-officetime-section {
+        padding-top: 4px;
+    }
+
+    .footer-zavodtime-section {
+        padding-top: 7px;
+    }
+
+    .footer-menu-name {
+        padding-bottom: 12px;
+    }
+
+    .map {
+        height: 450px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .breadcrumb-area {
+        padding-top: 50px;
+        padding-left: 11px;
+    }
+
+    .main-heading-area {
+        font-size: 33px;
+        padding-left: 11px;
+        padding-bottom: 38px;
+    }
+
+    .footer-logo {
+        width: 177px;
+        padding-top: 45px;
+        padding-left: 10px;
+    }
+
+    .footer-body {
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-bottom: 23px;
+    }
+
+    .footer-phone-section {
+        padding-top: 5px;
+    }
+
+    .footer-mail-section {
+        padding-top: 16px;
+    }
+
+    .footer-office-section {
+        padding-top: 6px;
+    }
+
+    .footer-officetime-section {
+        padding-top: 6px;
+    }
+
+    .footer-zavodtime-section {
+        padding-top: 7px;
+    }
+
+    .footer-menu-name {
+        font-size: 22px;
+        padding-left: 8px;
+    }
+
+    .footer-menu {
+        padding-top: 17px;
+        padding-left: 8px;
+    }
+
+    .footer-lower {
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 17px;
+    }
+
+    .footer-lower-link {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .map {
+        height: 100%;
+        width: 100%;
+    }
 }

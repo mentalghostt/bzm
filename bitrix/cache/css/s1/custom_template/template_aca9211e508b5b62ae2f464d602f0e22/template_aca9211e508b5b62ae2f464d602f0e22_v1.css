@@ -1,0 +1,245 @@
+
+
+/* Start:/local/templates/custom_template/styles.css?17515453043052*/
+@font-face {
+    font-family: "Golos";
+    src: url("/local/templates/custom_template/assets/fonts/Golos-UI_VF.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+span,
+button {
+    font-family: "Golos";
+}
+
+body .color-grey-500 {
+    color: #909AA3;
+}
+
+body .color-grey-700 {
+    color: #3B4351;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobile-menu-under {
+    background-color: #E0E4E8;
+}
+
+.mobile-menu-under a {
+    color: #E14D31;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #E0E4E8;
+}
+
+.main button {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.main .orange-text {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.footer {
+    background-image: url('/local/templates/custom_template/assets/img/footer-background.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+
+.footer button {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+/*Пиксель-перфект*/
+.header-mobile {
+    height: 60px;
+}
+
+.header-menu-button {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.header-icon-mobile {
+    width: 6.5rem;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.header-phone-ref {
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.mobile-menu-name {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.mobile-menu-button {
+    padding-right: 6px;
+    padding-bottom: 3px;
+}
+
+.header-desk-upper {
+    height: 45px;
+    padding-top: 9px;
+    padding-right: 24px;
+}
+
+.header-desk-upper-mail {
+    font-size: 13px;
+}
+
+.header-desk-upper-phone {
+    font-size: 13px;
+}
+
+.header-desk-main {
+    height: 100px;
+}
+
+.header-desk-main-logo {
+    height: 77px;
+    padding-top: 23px;
+    padding-left: 13px;
+}
+
+.header-desk-main-menu {
+    padding-top: 52px;
+    padding-left: 33px;
+}
+
+@media (max-width: 768px) {
+    .breadcrumb-area {
+        padding-top: 22px;
+        padding-left: 9px;
+    }
+
+    .main-heading-area {
+        padding-top: 1px;
+        padding-left: 9px;
+        padding-bottom: 10px;
+    }
+
+    .inter-news-head {
+        padding-top: 92px;
+        padding-left: 10px;
+    }
+
+    .inter-news-link {
+        padding-top: 10px;
+    }
+
+    .footer-logo {
+        padding-top: 28px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 110px;
+    }
+
+    .footer-body {
+        padding-top: 35px;
+        padding-left: 10px;
+    }
+
+    .footer-menu-area {
+        padding-top: 20px;
+        padding-bottom: 440px;
+    }
+
+    .footer-lower {
+        height: 240px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+    }
+
+    .footer-lower-link {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-heading-area {
+        font-size: 30px;
+    }
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1751545022226*/
+.header-menu-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 12px;
+    color: black;
+}
+
+.header-menu-link:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1751476502198*/
+a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+/* /local/templates/custom_template/styles.css?17515453043052 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1751545022226 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1751476502198 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122 */

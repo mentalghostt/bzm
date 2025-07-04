@@ -25,21 +25,20 @@ use Bitrix\Main\Page\Asset;
 	</div>
 	<header class="header">
 		<div class="d-none d-md-block">
-			<nav>
-				<ul class="d-flex justify-content-center align-items-center pt-3">
-					<li class="list-inline-item"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-mail-icon.svg"><a
-							class="color-grey-700" href="mailto:mrvd@bzmr.ru"> mrvd@bzmr.ru</a></li>
-					<li class="list-inline-item"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-phone-icon.svg"><a
-							class="color-grey-700" href="tel:+7(495)790 44 41"> +7 (495) 790 44 41</a></li>
+			<nav class="header-desk-upper">
+				<ul class="d-flex justify-content-center align-items-center">
+					<li class="list-inline-item pe-3"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-mail-icon.svg"><a
+							class="color-grey-700 header-desk-upper-mail" href="mailto:mrvd@bzmr.ru"> mrvd@bzmr.ru</a></li>
+					<li class="list-inline-item m-0"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/mini-phone-icon.svg"><a
+							class="color-grey-700 header-desk-upper-phone" href="tel:+7(495)790 44 41"> +7 (495) 790 44 41</a></li>
 				</ul>
 			</nav>
-			<hr>
-			<div class="container d-flex justify-content-left pb-4">
+			<hr class="my-0">
+			<div class="container d-flex justify-content-left header-desk-main">
 				<a href="/" class="d-inline-block">
-					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-max.svg" class="img-fluid"
-						style="width: 200px; height: auto;">
+					<img class="header-desk-main-logo" src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-max.svg" class="img-fluid">
 				</a>
-				<nav>
+				<nav class="header-desk-main-menu">
 					<? $APPLICATION->IncludeComponent(
 						"bitrix:menu",
 						"custom_menu_header",
@@ -64,29 +63,29 @@ use Bitrix\Main\Page\Asset;
 		</div>
 
 		<div class="container d-block d-md-none">
-			<div class="d-flex justify-content-between align-items-center py-3">
-				<button class="btn p-1 border-0 bg-transparent" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/menu-icon.svg" alt="Меню">
+			<div class="header-mobile d-flex justify-content-between align-items-center align-items-center">
+				<button class="btn border-0 bg-transparent p-0" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+					<img class="header-menu-button" src="<?= SITE_TEMPLATE_PATH ?>/assets/img/menu-icon.svg">
 				</button>
 
-				<a href="/" class="mx-auto">
-					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-min.svg" alt="Логотип">
+				<a href="/">
+					<img class="header-icon-mobile" src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo-min.svg">
 				</a>
 
-				<a href="tel:+74957904411" class="pe-1">
-					<img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/phone-icon.svg" alt="Телефон">
+				<a href="tel:+74957904411">
+					<img class="header-phone-ref" src="<?= SITE_TEMPLATE_PATH ?>/assets/img/phone-icon.svg">
 				</a>
 			</div>
 		</div>
 
-		<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
-			<div class="offcanvas-header mb-1 ms-1">
-				<h4 class="offcanvas-title fw-bold" id="mobileMenuLabel">Меню</h5>
-					<button type="button" class="btn pe-1 border-0 bg-transparent" data-bs-dismiss="offcanvas"
-						aria-label="Закрыть"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/close-icon.svg"></button>
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+			<div class="offcanvas-header">
+				<h4 id="mobileMenuLabel" class="fw-bold mobile-menu-name">Меню</h5>
+					<button type="button" class="btn border-0 bg-transparent p-0" data-bs-dismiss="offcanvas">
+						<img class="mobile-menu-button" src="<?= SITE_TEMPLATE_PATH ?>/assets/img/close-icon.svg"></button>
 			</div>
-			<hr class="mt-0">
-			<nav class="mb-2 ms-4">
+			<hr class="my-0">
+			<nav class="px-4" style="height: 158px">
 				<? $APPLICATION->IncludeComponent(
 					"bitrix:menu",
 					"custom_menu_mobile",
@@ -99,28 +98,28 @@ use Bitrix\Main\Page\Asset;
 						"MENU_CACHE_TIME" => "3600",
 						"MENU_CACHE_TYPE" => "N",
 						"MENU_CACHE_USE_GROUPS" => "Y",
-						"ROOT_MENU_TYPE" => "header_menu",
+						"ROOT_MENU_TYPE" => "mobile_menu",
 						"USE_EXT" => "N",
 						"COMPONENT_TEMPLATE" => "custom_menu_header"
 					),
 					false
 				); ?>
 			</nav>
-			<div class="offcanvas-body mobile-menu-under">
-				<div class="mt-auto ms-2">
+			<div class="offcanvas-body mobile-menu-under px-4">
+				<div>
 					<ul class="list-unstyled">
-						<li class="mb-3">
-							<a class="bx-link" href="tel:+74951501450" class="text-decoration-none">
-								<h5 class="mb-0 fw-bold">+7 (495) 150 14 50</h5>
-							</a>
-						</li>
-						<li class="mb-3">
-							<a href="mailto:info@bzm32.ru" class="text-decoration-none">
-								<h5 class="mb-0 fw-bold">info@bzm32.ru</h5>
+						<li>
+							<a href="tel:+74951501450">
+								<h5 class="fw-bold" style="padding-top: 2px">+7 (495) 150 14 50</h5>
 							</a>
 						</li>
 						<li>
-							<p class="text-muted mb-0">Для вопросов и предложений</p>
+							<a href="mailto:info@bzm32.ru">
+								<h5 class="fw-bold" style="padding-top: 8px">info@bzm32.ru</h5>
+							</a>
+						</li>
+						<li>
+							<p class="text-muted" style="padding-top: 6px">Для вопросов и предложений</p>
 						</li>
 					</ul>
 				</div>
@@ -129,10 +128,22 @@ use Bitrix\Main\Page\Asset;
 	</header>
 
 	<main class="main">
-		<div class="container px-4">
-			<? $currentPage = $APPLICATION->GetCurPage(); ?>
-			<? if ($currentPage !== SITE_DIR && $currentPage !== SITE_DIR . 'index.php' && $currentPage !== SITE_DIR . '404.php'): ?>
-				<? $APPLICATION->IncludeComponent(
+		<div class="container">
+			<? $currentPage = $APPLICATION->GetCurPage();
+			$isNewsDetailPage = (
+				strpos($currentPage, '/news/') !== false &&
+				!preg_match('~/news/$~', $currentPage) &&
+				!preg_match('~/news/index\.php$~', $currentPage)
+			);
+			$isExpluatationDetailPage = (
+				strpos($currentPage, '/expluatation/') !== false &&
+				!preg_match('~/expluatation/$~', $currentPage) &&
+				!preg_match('~/expluatation/index\.php$~', $currentPage)
+			);
+			if ($currentPage !== SITE_DIR && $currentPage !== SITE_DIR . 'index.php' && $currentPage !== SITE_DIR . '404.php'): ?>
+				<div class="breadcrumb-area">
+					<? $APPLICATION->IncludeComponent(
+
 					"bitrix:breadcrumb",
 					"custom_breadcrumb",
 					array(
@@ -142,5 +153,8 @@ use Bitrix\Main\Page\Asset;
 					),
 					false
 				); ?>
-				<h1 class="pt-2 fw-bold"><? $APPLICATION->ShowTitle(); ?></h1>
+				</div>
+				<? if (!$isNewsDetailPage && !$isExpluatationDetailPage): ?>
+					<h1 class="fw-bold main-heading-area"><? $APPLICATION->ShowTitle(); ?></h1>
+				<? endif; ?>
 			<? endif; ?>

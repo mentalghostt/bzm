@@ -1,0 +1,35 @@
+
+
+/* Start:/local/templates/custom_template/components/bitrix/news/custom_block_news/bitrix/news.detail/.default/style.css?1751483920458*/
+.news-image {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.news-image img {
+    object-fit: cover;
+    max-height: 213px;
+}
+
+.news-text {
+    color: black;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .news-text {
+        font-size: 0.9rem;
+    }
+
+    .news-title {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .news-image img {
+        object-fit: cover;
+        max-height: 120px;
+    }
+}
+/* End */
+/* /local/templates/custom_template/components/bitrix/news/custom_block_news/bitrix/news.detail/.default/style.css?1751483920458 */

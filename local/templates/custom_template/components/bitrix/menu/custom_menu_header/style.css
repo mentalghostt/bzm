@@ -1,13 +1,12 @@
-.header-menu {
-    height: 100%;
-    margin-left: 3rem;
+.header-menu-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 12px;
+    color: black;
 }
 
-.header-menu li {
-    margin-right: 1.5rem;
-}
-
-.header-menu .bx-link:hover {
+.header-menu-link:hover {
     color: #E14D31;
     transition: all 0.3s ease;
 }

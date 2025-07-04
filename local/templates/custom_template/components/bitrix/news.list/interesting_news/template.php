@@ -13,19 +13,28 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<div class="news-list py-md-4 pt-md-4 pt-2 pb-4">
+<div class="row d-flex align-items-center inter-news-head">
+	<h1 class="col-md-10 col-xs-12 fw-bold inter-news-name">Полезные статьи</h1>
+	<a class="col-md-2 col-xs-12 orange-text justify-content-end-md fw-bold" href="expluatation/">
+		<p class="d-md-flex justify-content-end inter-news-link">
+			Смотреть все →
+		</p>
+	</a>
+</div>
+
+<div class="news-list">
 	<? if ($arParams["DISPLAY_TOP_PAGER"]): ?>
 		<?= $arResult["NAV_STRING"] ?><br />
 	<? endif; ?>
 
-	<div class="row g-4">
+	<div class="row gapper">
 		<? foreach ($arResult["ITEMS"] as $arItem): ?>
 			<?
 			$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
 			$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 			?>
-			<div class="col-xl-4 col-md-6 col-sm-12">
-				<div class="card news-card h-100 rounded-5" id="<?= $this->GetEditAreaId($arItem['ID']); ?>">
+			<div class="col-xl-4 col-md-6 col-sm-12 px-4">
+				<div class="card news-card h-100 rounded-4" id="<?= $this->GetEditAreaId($arItem['ID']); ?>">
 					<? if ($arParams["DISPLAY_PICTURE"] != "N" && is_array($arItem["PREVIEW_PICTURE"])): ?>
 						<div class="card-img-top rounded-top-4">
 							<? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])): ?>
@@ -48,16 +57,11 @@ $this->setFrameMode(true);
 
 					<div class="card-body">
 						<? if ($arParams["DISPLAY_NAME"] != "N" && $arItem["NAME"]): ?>
-							<div class="title-container mb-1 ms-1 w-100" style="max-width: 100%; overflow: hidden;">
-								<? if (!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])): ?>
-									<h6 class="card-title m-0"
-										style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; min-height: 1.5em; max-height: 3em; line-height: 1.5em;">
-										<a href="<?= $arItem["DETAIL_PAGE_URL"] ?>"
-											class="text-decoration-none fw-bold"><?= $arItem["NAME"] ?></a>
-									</h6>
-								<? else: ?>
-									<h6 class="card-title text-truncate fw-bold"><?= $arItem["NAME"] ?></h6>
-								<? endif; ?>
+							<div class="title-container mb-1 w-100" style="max-width: 100%; overflow: hidden;">
+								<h6 class="card-title m-0">
+									<a href="<?= $arItem["DETAIL_PAGE_URL"] ?>" class="text-decoration-none fw-bold"
+										style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; height: 3.3em; width: 14em; line-height: 1.4em; padding: 9px 0 0 3px"><?= $arItem["NAME"] ?></a>
+								</h6>
 							</div>
 						<? endif; ?>
 

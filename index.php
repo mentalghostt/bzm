@@ -2,14 +2,6 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle("Главная");
 ?>
-<div class="row pt-5 d-flex align-items-center">
-	<h1 class="col-md-10 col-xs-12 fw-bold">Полезные статьи</h1>
-	<a class="col-md-2 col-xs-12 orange-text justify-content-end-md" href="expluatation/">
-		<p class="d-md-flex fw-bold mt-3 mt-md-3 justify-content-end">
-			Смотреть все →
-		</p>
-	</a>
-</div>
 <? $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"interesting_news",

@@ -2,7 +2,7 @@
 	die(); ?>
 
 <? if (!empty($arResult)): ?>
-	<ul class="list-unstyled menu-footer">
+	<ul class="list-unstyled">
 
 		<?
 		foreach ($arResult as $arItem):
@@ -10,9 +10,9 @@
 				continue;
 			?>
 			<? if ($arItem["SELECTED"]): ?>
-				<li class="mt-4"><a href="<?= $arItem["LINK"] ?>" class="selected"><h6><?= $arItem["TEXT"] ?></h6></a></li>
+				<li style="padding: 0 0 12px"><a href="<?= $arItem["LINK"] ?>" class="selected"><h6><?= $arItem["TEXT"] ?></h6></a></li>
 			<? else: ?>
-				<li class="mt-4"><a href="<?= $arItem["LINK"] ?>"><h6><?= $arItem["TEXT"] ?></h6></a></li>
+				<li style="padding: 0 0 12px"><a href="<?= $arItem["LINK"] ?>"><h6><?= $arItem["TEXT"] ?></h6></a></li>
 			<? endif ?>
 
 		<? endforeach ?>

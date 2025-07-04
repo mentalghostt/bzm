@@ -20,10 +20,10 @@ $this->setFrameMode(true);
     $APPLICATION->SetPageProperty("description", $arResult["NAME"]);
 ?>
 <? endif; ?>
-<div class="pb-5">
-<div class="bg-white rounded-4 p-md-5 p-4 mt-4">
+<h1 class="fw-bold news-title"><? $APPLICATION->ShowTitle(); ?></h1>
+<div class="bg-white rounded-4 p-md-5 mx-md-2 pt-4 px-2 mt-3">
     <? if ($arParams["DISPLAY_PICTURE"] != "N" && is_array($arResult["DETAIL_PICTURE"])): ?>
-        <div class="news-image mb-md-5 mb-3">
+        <div class="news-image">
             <img class="img-fluid rounded-1 w-100" src="<?= $arResult["DETAIL_PICTURE"]["SRC"] ?>"
                 width="<?= $arResult["DETAIL_PICTURE"]["WIDTH"] ?>" height="<?= $arResult["DETAIL_PICTURE"]["HEIGHT"] ?>"
                 alt="<?= $arResult["DETAIL_PICTURE"]["ALT"] ?>" title="<?= $arResult["DETAIL_PICTURE"]["TITLE"] ?>">
@@ -74,5 +74,5 @@ $this->setFrameMode(true);
             <? endforeach; ?>
         </div>
     <? endif; ?>
-    </div>
+</div>
 </div>

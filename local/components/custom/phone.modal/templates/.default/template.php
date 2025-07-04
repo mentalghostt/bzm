@@ -14,7 +14,7 @@
             </div>
             <div class="modal-body">
                 <form id="phoneForm">
-                    <div class="mb-3">
+                    <div>
                         <label for="phoneInput" class="form-label text-black">Номер телефона</label>
                         <input type="tel" class="form-control" id="phoneInput" required
                             placeholder="+7 999 999 99 99">

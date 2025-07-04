@@ -13,12 +13,12 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<div class="news-list py-md-4 pt-md-5 pt-3 pb-4">
+<div class="news-list">
     <? if ($arParams["DISPLAY_TOP_PAGER"]): ?>
         <?= $arResult["NAV_STRING"] ?><br />
     <? endif; ?>
 
-    <div class="row g-4">
+    <div class="row px-3 g-5 pb-5">
         <? foreach ($arResult["ITEMS"] as $arItem): ?>
             <?
             $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));

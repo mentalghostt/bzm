@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}

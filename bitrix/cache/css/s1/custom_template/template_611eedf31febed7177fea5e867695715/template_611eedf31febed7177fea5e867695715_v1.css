@@ -1,0 +1,142 @@
+
+
+/* Start:/local/templates/custom_template/styles.css?17514524071148*/
+@font-face {
+  font-family: "Golos"; 
+  src: url("/local/templates/custom_template/assets/fonts/Golos-UI_VF.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+p, h1, h2, h3, h4, h5, h6, a, div, span, button{
+    font-family: "Golos";
+}
+
+.footer .color-grey-500 {
+    color: #909AA3;
+}
+
+.header .color-grey-700 {
+    color: #3B4351;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mobile-menu-under {
+    background-color: #E0E4E8;
+}
+
+.mobile-menu-under a {
+    color: #E14D31;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #E0E4E8;
+}
+
+.main button {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.main .orange-text {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.footer {
+    background-image: url('/local/templates/custom_template/assets/img/footer-background.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+
+.footer button {
+    text-decoration: none;
+    color: #E14D31;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?175145586165*/
+a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1750616904236*/
+.menu-mobile .bx-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu-mobile .bx-link:hover {
+    color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1751455321398*/
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-divider {
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item-active {
+    color: #E14D31;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.breadcrumb-item a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+/* /local/templates/custom_template/styles.css?17514524071148 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?175145586165 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1750616904236 */
+/* /local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1751455321398 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122 */

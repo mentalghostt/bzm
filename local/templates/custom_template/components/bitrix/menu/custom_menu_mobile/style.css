@@ -1,10 +1,10 @@
-.menu-mobile .bx-link {
+a {
     text-decoration: none;
     color: #000;
-    font-weight: bold;
+    letter-spacing: 1px;
 }
 
-.menu-mobile .bx-link:hover {
+a:hover {
     color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
     transition: all 0.3s ease;
 }

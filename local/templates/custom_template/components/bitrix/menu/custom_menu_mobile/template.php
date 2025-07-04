@@ -2,7 +2,7 @@
 	die(); ?>
 
 <? if (!empty($arResult)): ?>
-	<ul class="list-unstyled menu-mobile">
+	<ul class="list-unstyled">
 
 		<?
 		foreach ($arResult as $arItem):
@@ -10,9 +10,9 @@
 				continue;
 			?>
 			<? if ($arItem["SELECTED"]): ?>
-				<li class="mb-3"><a class="bx-link selected" href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
+				<li class="fw-bold" style="margin: 13px 0 0"><a class="selected" href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
 			<? else: ?>
-				<li class="mb-3"><a class="bx-link" href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
+				<li class="fw-bold" style="margin: 13px 0 0"><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
 			<? endif ?>
 
 		<? endforeach ?>

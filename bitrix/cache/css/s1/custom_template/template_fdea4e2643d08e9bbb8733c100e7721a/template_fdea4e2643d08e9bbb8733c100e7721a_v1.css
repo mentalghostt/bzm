@@ -1,0 +1,369 @@
+
+
+/* Start:/local/templates/custom_template/styles.css?17516413104578*/
+@font-face {
+    font-family: "Golos";
+    src: url("/local/templates/custom_template/assets/fonts/Golos-UI_VF.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+span,
+button {
+    font-family: "Golos";
+}
+
+body .color-grey-500 {
+    color: #909AA3;
+}
+
+body .color-grey-700 {
+    color: #3B4351;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobile-menu-under {
+    background-color: #E0E4E8;
+}
+
+.mobile-menu-under a {
+    color: #E14D31;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #E0E4E8;
+}
+
+.main button {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.main .orange-text {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+.footer {
+    background-image: url('/local/templates/custom_template/assets/img/footer-background.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+
+.footer button {
+    text-decoration: none;
+    color: #E14D31;
+}
+
+/*Пиксель-перфект*/
+.header-mobile {
+    height: 60px;
+}
+
+.header-menu-button {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.header-icon-mobile {
+    width: 6.5rem;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.header-phone-ref {
+    margin-top: 2px;
+    margin-right: 13px;
+}
+
+.mobile-menu-name {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.mobile-menu-button {
+    padding-right: 6px;
+    padding-bottom: 3px;
+}
+
+.header-desk-upper {
+    height: 45px;
+    padding-top: 9px;
+    padding-right: 24px;
+}
+
+.header-desk-upper-mail {
+    font-size: 13px;
+}
+
+.header-desk-upper-phone {
+    font-size: 13px;
+}
+
+.header-desk-main {
+    height: 100px;
+}
+
+.header-desk-main-logo {
+    height: 77px;
+    padding-top: 23px;
+    padding-left: 13px;
+}
+
+.header-desk-main-menu {
+    padding-top: 51px;
+    padding-left: 45px;
+}
+
+@media (max-width: 768px) {
+    .breadcrumb-area {
+        padding-top: 22px;
+        padding-left: 9px;
+    }
+
+    .main-heading-area {
+        padding-top: 1px;
+        padding-left: 9px;
+        padding-bottom: 10px;
+    }
+
+    .footer-logo {
+        padding-top: 28px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 110px;
+    }
+
+    .footer-body {
+        padding-top: 35px;
+        padding-left: 10px;
+    }
+
+    .footer-menu-area {
+        padding-top: 20px;
+        padding-bottom: 440px;
+    }
+
+    .footer-lower {
+        height: 240px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+    }
+
+    .footer-lower-link {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .footer-mail-section{
+        padding-top: 12px;
+    }
+
+    .footer-office-section{
+        padding-top: 4px;
+    }
+
+    .footer-officetime-section{
+        padding-top: 4px;
+    }
+
+    .footer-zavodtime-section{
+        padding-top: 7px;
+    }
+
+    .footer-menu-name{
+        padding-bottom: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .breadcrumb-area {
+        padding-top: 50px;
+        padding-left: 11px;
+    }
+
+    .main-heading-area{
+        font-size: 33px;
+        padding-left: 11px;
+        padding-bottom: 38px;
+    }
+    
+    .footer-logo {
+        width: 177px;
+        padding-top: 45px;
+        padding-left: 10px;
+    }
+
+    .footer-body{
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-bottom: 23px;
+    }
+
+    .footer-phone-section{
+        padding-top: 5px;
+    }
+
+    .footer-mail-section{
+        padding-top: 16px;
+    }
+
+    .footer-office-section{
+        padding-top: 6px;
+    }
+
+    .footer-officetime-section{
+        padding-top: 6px;
+    }
+
+    .footer-zavodtime-section{
+        padding-top: 7px;
+    }
+
+    .footer-menu-name{
+        font-size: 22px;
+        padding-left: 8px;
+    }
+
+    .footer-menu{
+        padding-top: 17px;
+        padding-left: 8px;
+    }
+
+    .footer-lower{
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 17px;
+    }
+
+    .footer-lower-link{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .text-button-white{
+        letter-spacing: 0px;
+        font-weight: bold;
+        color: white;
+        padding-top: 5px;
+    }
+
+    .btn-dark{
+        background-color: #E14D31 !important;
+        border: none !important;
+        height: 40px;
+    }
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1751545022226*/
+.header-menu-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 12px;
+    color: black;
+}
+
+.header-menu-link:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1751476502198*/
+a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: rgba(249, 126, 56, 1);; /* Эффект при наведении */
+    transition: all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1751557110499*/
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-divider {
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item-active {
+    color: #E14D31;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.breadcrumb-item a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+
+span {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.breadcrumb-item {
+    padding-bottom: 3px;
+}
+/* End */
+
+
+/* Start:/local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #E14D31;
+    transition: all 0.3s ease;
+}
+/* End */
+/* /local/templates/custom_template/styles.css?17516413104578 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_header/style.css?1751545022226 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_mobile/style.css?1751476502198 */
+/* /local/templates/custom_template/components/bitrix/breadcrumb/custom_breadcrumb/style.css?1751557110499 */
+/* /local/templates/custom_template/components/bitrix/menu/custom_menu_footer/style.css?1751456076122 */

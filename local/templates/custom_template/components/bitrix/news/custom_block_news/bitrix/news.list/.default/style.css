@@ -30,3 +30,9 @@
 .card-title a:hover {
     color: rgba(249, 126, 56, 1);
 }
+
+@media (max-width: 768px) {
+    .gapper {
+        gap: 20px;
+    }
+}

@@ -30,3 +30,44 @@
 .card-title a:hover {
     color: rgba(249, 126, 56, 1);
 }
+
+@media (max-width: 768px) {
+    .gapper {
+        gap: 19px;
+    }
+
+    .news-list{
+        padding-bottom: 28px;
+    }
+
+    .inter-news-head {
+        padding-top: 92px;
+        padding-left: 10px;
+    }
+
+    .inter-news-link {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    .inter-news-head{
+        padding-top: 55px;
+        padding-left: 10px;
+        padding-bottom: 26px;
+    }
+
+    .inter-news-name{
+        font-size: 33px;
+    }
+
+    .inter-news-link{
+        font-size: 14px;
+        padding-top: 11px;
+        padding-right: 10px;
+    }
+
+    .news-list{
+        padding-bottom: 32px;
+    }
+}

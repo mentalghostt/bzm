@@ -8,7 +8,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Документы", 
+		"Документация", 
 		"/documents/", 
 		Array(), 
 		Array(), 
